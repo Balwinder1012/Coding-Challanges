@@ -14,20 +14,18 @@ public class Panagram {
         String sen = sc.nextLine();
         sc.close();
         sen = sen.toLowerCase();
-        String s1[] = sen.split(" ");
+       
         Set<Character> set = new HashSet<Character>();
-        for(String s: s1){
-        	
-        	char[] ch = s.toCharArray();
-        	
-        	for(char c: ch)
-        		set.add(new Character(c)); 
-        	
-        }
+     	char[] ch = sen.toCharArray();
+
+     	for(char c: ch)
+      		set.add(new Character(c)); 
         
-        System.out.println((set.size()==26) ? "pangram" : "not pangram" );
-        
-		
+     	String cc = set.toString();
+     	
+     //	System.out.println(cc);
+        System.out.println((set.size()>26) ? "pangram" : "not pangram" );
+      
 	}
 	
 	public static void theirsMethod(){
@@ -59,8 +57,8 @@ public class Panagram {
 	}
     public static void main(String[] args) {
 
-    	//myMethod();
-    	theirsMethod();
+    	myMethod();
+    	//theirsMethod();
     	
         
     }
