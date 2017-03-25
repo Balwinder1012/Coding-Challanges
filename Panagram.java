@@ -21,9 +21,7 @@ public class Panagram {
      	for(char c: ch)
       		set.add(new Character(c)); 
         
-     	String cc = set.toString();
-     	
-     //	System.out.println(cc);
+     
         System.out.println((set.size()>26) ? "pangram" : "not pangram" );
       
 	}

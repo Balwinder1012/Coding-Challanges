@@ -3,32 +3,10 @@ import java.util.*;
 
 
 public class String_problem {
-/*
-	static String initialString="";
-	static String finalString = "aabaabaabaabsfsfs";
-	
-	static StringBuilder fs = new StringBuilder(finalString);
-	static StringBuilder is = new StringBuilder(initialString);
-	
-	static int cost = 0;
-	static int index=2;
-	
-	
-	public static void initializeProblem(){
-		 
-			is.append(fs.charAt(0));
-	        cost = cost + 4;
-	        is.append(fs.charAt(1));
-	        cost = cost +4;
-		
-		
-	}*/
-	/*
-	public static boolean isComplete(){
-		return(is.length()!=fs.length());
-		
-	}
-*/    public static void main(String[] args) {
+
+
+
+    public static void main(String[] args) {
        
 	String initialString="";
     //String finalString = "";
